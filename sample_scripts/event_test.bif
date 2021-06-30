@@ -1,0 +1,18 @@
+##
+##
+##
+##
+##
+event SCADA_Q2C_Sync_Activated%(c: connection, invoke_id: int, service: int, value: bool%);
+##
+##
+##
+##
+##
+event MIED2_Phase_Angle%(c: connection, invoke_id: int, service: int, value: double%);
+##
+##
+##
+##
+##
+event Q2C_In_Sync%(c: connection, invoke_id: int, service: int, value: bool%);
